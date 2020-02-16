@@ -46,6 +46,9 @@ body
 	background: #FFFFFF;
 	color: #a5a5a5;
 }
+table, th, td {
+	border: 2px solid #0a2642;
+  }
 div
 {
 	display: block;
@@ -283,7 +286,7 @@ section
 .button
 {
 	display: inline-block;
-	width: 202px;
+	width: 502px;
 	height: 59px;
 	text-align: center;
 }
@@ -293,7 +296,7 @@ section
 }
 .button_2
 {
-	background: #7f66ff;
+	background: #0a2642;
 }
 .button_3
 {
@@ -301,7 +304,7 @@ section
 }
 .button_4
 {
-	background: #7f66ff;
+	background: #0a2642;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -320,7 +323,7 @@ section
 }
 .button_1::after
 {
-	background: #7f66ff;
+	background: #0a2642;
 }
 .button_2::after
 {
@@ -411,7 +414,7 @@ section
 	width: calc(100% - 48px);
 	background: #0a2642;
 	z-index: 100;
-	border-bottom: solid 2px #7f66ff;
+	border-bottom: solid 2px #0a2642;
 }
 .header_content
 {
@@ -444,7 +447,7 @@ section
 	font-size: 30px;
 	line-height: 0.75;
 	font-weight: 500;
-	color: #7f66ff;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 .logo a > span > span
@@ -491,7 +494,7 @@ section
 }
 .main_nav > ul > li.active.has_children > a::after
 {
-	color: #7f66ff;
+	color: #00963F;
 }
 .main_nav > ul > li:not(:last-of-type)
 {
@@ -508,7 +511,7 @@ section
 .main_nav > ul > li.active a,
 .main_nav > ul > li > a:hover::after
 {
-	color: #7f66ff;
+	color: #00963F;
 }
 .main_nav ul li > ul
 {
@@ -542,7 +545,7 @@ section
 }
 .main_nav ul li > ul > li a
 {
-	color: #7f66ff;
+	color: #00963F;
 }
 .main_nav ul li > ul > li a:hover
 {
@@ -553,7 +556,7 @@ section
 	position: absolute;
 	top: -20px;
 	left: 100%;
-	border-left: solid 3px #7f66ff;
+	border-left: solid 3px #00963F;
 }
 .main_nav > ul > li.has_children > ul li.has_children > a::after
 {
@@ -584,7 +587,7 @@ section
 {
 	height: 100%;
 	width: 200px;
-	background: #7f66ff;
+	background: #00963F;
 	text-align: center;
 }
 .header_link a
@@ -830,14 +833,14 @@ section
 {
 	font-size: 90px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #0a2642;
 	font-style: italic;
 	line-height: 0.75;
 }
 .breadcrumbs
 {
 	display: inline-block;
-	background: #7f66ff;
+	background: #0a2642;
 	height: 38px;
 	padding-left: 23px;
 	padding-right: 25px;
@@ -910,8 +913,8 @@ section
 .intro_left_content
 {
 	padding-left: 190px;
-	padding-top: 98px;
-	padding-bottom: 109px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-right: 200px;
 }
 .intro_title h1
@@ -928,10 +931,10 @@ section
 }
 .intro_right_content
 {
-	padding-top: 149px;
+	padding-top: 15px;
 	padding-left: 205px;
 	padding-bottom: 143px;
-	padding-right: 190px;
+	padding-right: 15px;
 }
 
 /*********************************
